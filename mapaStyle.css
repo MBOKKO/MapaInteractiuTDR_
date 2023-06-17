@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(12, 35, 91);
+}
+
 #map {
     height: 96vh;
     width: 96vw;
@@ -6,15 +10,18 @@
 
 #sidebar {
     position: absolute;
-    top: 9px;
-    left: 35px;
+    top: 8px;
+    left: 50px;
     z-index: 9999;
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(44, 147, 216);
     overflow: auto;
     width: 0; /* Ample inicial */
     height: 96vh;
     transition: width 0.3s ease; /* Animació */
     font-size: 15px;
+ /* Afegir les puntes arrodonides */
+    border-radius: 15px 15px 15px 15px;
+  
 }
 
 #texto{
@@ -24,15 +31,18 @@
 }
 
 #sidebar.activa {
-    width: 11vw; /* Ample final */
-}
-#closeButton {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-#container {
-    top: 20px;
-    
+    width: 12vw; /* Ample final */
 }
 
+#closeButton {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+
+.close-icon {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
