@@ -35,8 +35,8 @@ function obrirPestanya(carrer) {
   }
   
 
-function tancarPestaya() {
-    document.getElementById('sidebar').classList.remove('activa'); // Eliminar la clase 'activa' 
+  function tancarPestanya() {
+    document.getElementById('sidebar').classList.remove('activa'); // Eliminar la classe 'activa' 
 }
 
 // Evento click en el mapa
