@@ -1,1 +1,38 @@
+#map {
+    height: 96vh;
+    width: 96vw;
+    float: right;
+}
+
+#sidebar {
+    position: absolute;
+    top: 9px;
+    left: 35px;
+    z-index: 9999;
+    background-color: rgb(255, 145, 0);
+    overflow: auto;
+    width: 0; /* Ample inicial */
+    height: 96vh;
+    transition: width 0.3s ease; /* Animació */
+    font-size: 15px;
+}
+
+#texto{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sidebar.activa {
+    width: 11vw; /* Ample final */
+}
+#closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#container {
+    top: 20px;
+    
+}
 
