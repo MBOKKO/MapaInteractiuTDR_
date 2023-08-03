@@ -1,12 +1,12 @@
 // Coordenades Taradell
-var southWest = L.latLng(41.868525, 2.279981); // Coordenada surest
-var northEast = L.latLng(41.877704, 2.292463); // Coordenada nortest
+var southWest = L.latLng(41.85691515500844, 2.2983878991417943); // Coordenada surest
+var northEast = L.latLng(41.88496464894544, 2.2802840658397194); // Coordenada nortest
 var bounds = L.latLngBounds(southWest, northEast); // Limits
 
 // Iniciar el mapa Leaflet 
 var map = L.map('map', {
   maxBounds: bounds,
-  minZoom: 16 //  zoom mínim
+  minZoom: 15 //  zoom mínim (15)
 }).fitBounds(bounds);
 
 // Proveïdor del mapa, OpenStreetMap
@@ -309,6 +309,34 @@ var polyline = L.polyline(latZonaC9, { color: 'green' }).addTo(map);
 var polyline = L.polyline(latZonaC10, { color: 'green' }).addTo(map);
 var polyline = L.polyline(latZonaC11, { color: 'green' }).addTo(map);
 var polyline = L.polyline(latZonaC12, { color: 'green' }).addTo(map);
+
+// PUNTS DE MESURES
+var puntCasa = [41.868906509568106, 2.2855564811107336];
+var punt1 = L.marker(puntCasa).addTo(map);
+
+var puntCanCosta = [41.87129886903439, 2.284948257906492];
+var punt2 = L.marker(puntCanCosta).addTo(map);
+
+var puntInsitut = [41.87242935276611, 2.289282689163166];
+var punt3 = L.marker(puntInsitut).addTo(map);
+
+var puntComercial = [41.873791075359854, 2.2864665856638133];
+var punt4 = L.marker(puntComercial).addTo(map);
+
+var puntEsgleisa = [41.875548692321814, 2.285645717094256];
+var punt5 = L.marker(puntEsgleisa).addTo(map);
+
+var puntEAS = [41.872065621955876, 2.2825887793812516];
+var punt6 = L.marker(puntEAS).addTo(map);
+
+var puntGoitallops = [41.863512897722764, 2.292532819970852];
+var punt7 = L.marker(puntGoitallops).addTo(map);
+
+var puntRoca1 = [41.88215162158002, 2.29387098134648];
+var punt8 = L.marker(puntRoca1).addTo(map);
+
+
+
 
 
 // TEXTOS DE CADA CARRER.
