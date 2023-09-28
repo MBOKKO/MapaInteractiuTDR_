@@ -947,54 +947,66 @@ var polyline = L.polyline(latZonaC17, { color: 'red' }).addTo(map);
 
 
 // PUNTS DE MESURES
-/*
+
 var puntCasa = [41.868906509568106, 2.2855564811107336];
 var punt1 = L.marker(puntCasa).addTo(map);
 punt1.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
-*/
-
 
 var puntCanCosta = [41.87129886903439, 2.284948257906492];
 var punt2 = L.marker(puntCanCosta).addTo(map);
+punt2.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntInsitut = [41.87242935276611, 2.289282689163166];
 var punt3 = L.marker(puntInsitut).addTo(map);
+punt3.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntPlaçaPilota = [41.87594771744512, 2.286407261412822];
 var punt5 = L.marker(puntPlaçaPilota).addTo(map);
+punt5.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntEAS = [41.872065621955876, 2.2825887793812516];
 var punt6 = L.marker(puntEAS).addTo(map);
+punt6.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntPinediques = [41.86480747347215, 2.2916051566243127];
 var punt7 = L.marker(puntPinediques).addTo(map);
+punt7.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntRoca1 = [41.88215162158002, 2.29387098134648];
 var punt8 = L.marker(puntRoca1).addTo(map);
+punt8.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntDeixalles = [41.86204332756388, 2.2853414020640006];
 var punt9 = L.marker(puntDeixalles).addTo(map);
+punt9.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntLuscoFusco = [41.873176234949796, 2.286031961335926];
 var punt10 = L.marker(puntLuscoFusco).addTo(map);
+punt10.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntRoca2 = [41.88324537402058, 2.302451253478957];
 var punt11 = L.marker(puntRoca2).addTo(map);
+punt11.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntMadriguera1 = [41.885913294168574, 2.2809517422582726];
 var punt12 = L.marker(puntMadriguera1).addTo(map);
+punt12.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntMadriguera2 = [41.885522133354314, 2.2796373309950417];
 var punt13 = L.marker(puntMadriguera2).addTo(map);
+punt13.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntPlaçaPinyo = [41.86112766858844, 2.294695273626313];
 var punt14 = L.marker(puntPlaçaPinyo).addTo(map);
+punt14.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntCasaJana = [41.878596422930634, 2.292543323445622];
 var punt15 = L.marker(puntCasaJana).addTo(map);
+punt15.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 var puntSantQuirze = [41.880493456633666, 2.298696547395989];
 var punt16 = L.marker(puntSantQuirze).addTo(map);
+punt16.bindPopup('<span style="font-size: 20px;"><b>Mitjana del Mes de Agost:</b></span> <span style="font-size: 16px;">40db</span><br><span style="font-size: 14px;">Texto de abajo<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in nisi venenatis, gravida nibh vel</span>').openPopup();
 
 
 
