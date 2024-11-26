@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
-
-    <link rel="stylesheet" href="mapaStyle.css">
-
-    <title>Mapa</title>
+    <title>Competició d'Apostes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="map"></div>
-    <div id="sidebar">
-        <h2 id="carrer"></h2>
-        <ul id="texto"></ul>
-        <button id="closeButton" onclick="tancarPestanya()">
-            <span class="close-icon">X</span>
-        </button>
-        <p id="coordenadas"></p> <!-- Nuevo elemento para mostrar las coordenadas -->
-    </div> <!-- Cierre de la etiqueta div del sidebar -->
-    
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
-    <script src="script.js"></script>
+    <h1>Competició d'Apostes</h1>
+    <div id="participants">
+        <h2>Participants</h2>
+        <ul>
+            <li><a href="person.html?nom=Marçal">Marçal</a></li> <!-- Marçal = archiu Anna-->
+            <li><a href="person.html?nom=Marc">Marc</a></li>
+            <li><a href="person.html?nom=Joan">Joan</a></li>
+            <li><a href="person.html?nom=Pau">Pau</a></li> <!-- PAU = archiu Maria-->
+        </ul>
+    </div>
+
+    <div id="rànquing">
+        <h2>Rànquing</h2>
+        <ul id="rankingList"></ul>
+    </div>
+
+    <script src="ranking.js"></script>
 </body>
 </html>
